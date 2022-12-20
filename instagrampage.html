@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram login page</title>
+    <style>
+        *{padding: 0;margin: 0;box-sizing: border-box;}
+        body{background-color: whitesmoke;}
+        .container{
+            height: 100%;
+            width: 100%;
+            display: grid;
+            justify-content: center;
+            background-color: whitesmoke;
+            text-align: center;
+        }
+        .box{
+            margin-top: 30px;
+            padding: 20px;
+            width: 350px;
+            height: 380px;
+            text-align: center;
+            border: 1px solid rgb(3, 2, 2);
+            background-color: #ffff;
+        }
+        .box.a{
+            margin-top: 10px;
+            height: 80px;
+        }
+        #hedding{
+            font-size: 40px;
+            font-weight: 400;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 10px;
+        }
+        #int{
+            width: 250px;
+            height: 30px;
+            margin: 20px 30px 10px 30px;
+            background-color: whitesmoke;
+            padding: 10px;
+            border: 1px solid rgba(216, 211, 211);
+        }
+        #a{
+            width: 250px;
+            height: 30px;
+            margin: 20px 30px 10px 30px;
+            background-color: rgb(85, 85, 223);
+            padding-bottom: 0px;
+            border: 1px solid rgb(16, 15, 15);
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+        #pho{
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 id="hedding">Instagram</h2>
+            <input id="int" type="text" placeholder="Phone number,username, or email" required>
+            <input id="int" type="password" placeholder="password" required>
+            <input id="a" type="submit" value="login">
+            <p>------------ &nbsp; OR &nbsp;------------</p>
+            <p style="color: blue;font-size: 21px;padding: 20px 10px;cursor: pointer;">Login with the Facebook</p>
+            <p >Forgot password</p>
+
+        </div>
+        <div class="box a">
+            <p style="font-size: 18px;color: rgba(83, 77, 77);">Don't have an account?
+            <span style="color: blue;cursor: pointer;">Sign in</span></p>
+        </div>
+        <p style="padding: 20px;font-size: 20px;"> Get the app</p>
+        <span><img id="pho"src="c:\Users\admin\Desktop\both.jpg"></span>
+        <br><br><br><br><br><br><br>
+    </div>
+        
+    
+</body>
+</html>
